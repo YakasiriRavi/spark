@@ -1,0 +1,55 @@
+.logo1 {
+
+    max-width: 90%;
+
+
+
+}
+
+.icons {
+
+    width: 100px;
+    height: 200px;
+}
+
+para {
+
+    color: #4E566E;
+    text-align: start;
+    margin-left: 0;
+    padding-left: 0;
+
+
+
+}
+
+
+
+
+h3 {
+    white-space: nowrap;
+    color: rgb(140, 86, 82);
+    font-size: 25px;
+}
+
+
+.footer {
+    height: 30vh;
+    margin-top: 400px;
+
+
+}
+
+.courses {
+
+    color: #51301C;
+    margin-top: 15px;
+
+
+}
+
+
+h4 {
+    color: rgb(78, 86, 110);
+    font-size: 18px;
+}

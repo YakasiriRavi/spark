@@ -1,0 +1,94 @@
+.bg-container {
+    background-color: rgb(35, 132, 69);
+}
+
+.navbar-toggler {
+    border: 1px solid dark;
+    outline: none;
+}
+
+
+@media screen and (min-width:567px) {
+
+    .logo {
+        width: 150px;
+        height: 50px;
+    }
+
+
+    .carousel {
+        margin-left: 0;
+        padding: 0;
+
+    }
+
+
+
+    li {
+        margin-right: 30px;
+    }
+
+    ul {
+        margin-right: 50px;
+    }
+
+    img {
+        margin-left: 50px;
+    }
+
+
+}
+
+@media screen and (max-width:567px) {
+
+    li {
+        margin-bottom: 10px;
+    }
+
+
+
+}
+
+
+
+.btn {
+    border-radius: 20px;
+    background-color: rgb(27, 174, 112);
+    width: 150px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 8px;
+}
+
+.arrow {
+
+    background-color: blue;
+}
+
+
+.navbarbg {
+    height: 10vh;
+    margin-bottom: 40px;
+
+}
+
+
+ul.navbar-nav li {
+    margin-right: 20px;
+}
+
+ul.navbar-nav li:last-child {
+    margin-right: 0;
+}
+
+ul.navbar-nav li a {
+    text-decoration: none;
+    white-space: nowrap;
+    color: #D3F6F4;
+    font-size: 18px;
+}
