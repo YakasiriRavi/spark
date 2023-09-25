@@ -1,0 +1,60 @@
+
+
+
+.bg-container {
+    background-color: #FAFAFA;
+    min-height: 50vh;
+    padding: 20px;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+.girl_image{
+    max-width: 310px;
+}
+
+
+.anchor_ele li{
+    color: blue;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+
+
+.related {
+    width: 230px;
+}
+
+.card1 {
+    min-height: 100%;
+    text-align: start;
+}
+
+
+.white-bg {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+
+}
+
+button {
+    width: 160px;
+}
+
+
+.rating {
+
+    width: 150px;
+    height: 50px;
+}
+
+.rating .fas.fa-star {
+    color: gold;
+    /* Change the color of the filled stars */
+}

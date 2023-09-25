@@ -1,17 +1,32 @@
-import { useState } from "react";
+
+
+
+
+
 import './App.css';
-import Parent from "./parentComp/Parent";
+
+import Navbar from './components/Navbar'
+import Carousel from './components/Carousel'
+import Footer from './components/Footer'
+import Cards from './components/Cards'
+import DetailsPage from './components/DetailsPage'
+
+
+
 function App() {
-  // BABEL will convert JSX TO VANILLA JS OR PLAIN JS---> THIS WILL UNDERSTOOD BY THE BROWSER.
-  const [initialState, setInitialState] = useState("Seshu")
-  const [value, setValue] = useState("")
+
+  const cardsrender= true;
+  const detailspage = true
   return (
-    <div className="App">
-      <h1>Parent Section</h1>
-      <h2>Sreenu</h2>
-      <h2>Anil</h2>
-      <Parent />
+    <div className='App main-bg'>
+      <Navbar />
+      <Carousel />
+      {cardsrender && <Cards/> }
+      {detailspage && <DetailsPage/>}
+      <Footer />
+
     </div>
+
   );
 }
 

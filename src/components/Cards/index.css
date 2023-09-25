@@ -1,0 +1,73 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.container-box {
+    box-shadow: 0 4px 6px lightgrey;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 70vh;
+}
+
+.box {
+    min-height: 400px;
+    text-align: start;
+    box-shadow: 0 4px 8px lightgrey;
+}
+
+.person {
+    width: 70px;
+    height: 50px;
+}
+
+h5 {
+    color: #8BB6B6;
+
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    z-index: 2;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    z-index: 1;
+}
+
+.atdc {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: -20%;
+    left: 5%;
+    z-index: 2;
+    transform: rotate(5deg);
+}
+
+@media screen and (max-width: 991px) {
+    .circle {
+        width: 30%;
+        padding: 5%;
+        top: 10%;
+        right: 10%;
+        font-size: 3vw;
+    }
+}

@@ -1,5 +1,7 @@
-.bg-container {
+.cont {
     background-color: rgb(35, 132, 69);
+        margin-bottom: 40px;
+      
 }
 
 .navbar-toggler {
@@ -68,13 +70,6 @@
 .arrow {
 
     background-color: blue;
-}
-
-
-.navbarbg {
-    height: 10vh;
-    margin-bottom: 40px;
-
 }
 
 
